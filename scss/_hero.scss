@@ -1,0 +1,105 @@
+.hero {
+    padding: 67px 0;
+
+    .hero-cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 40px 40px;
+        justify-content: space-between;
+        border: 1px solid none;
+        box-shadow: 0px 4px 20px 0px #00000026;
+        border-radius: 40px;
+
+        .hero-card {
+            width: 380px;
+            height: 245;
+            border-right: 1px solid #D7D7DD;
+            padding-right: 105px;
+            
+
+            img {}
+
+            h3 {
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27px;
+                text-align: left;
+                color: #363738;
+                padding-top: 24px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                color: #6B6B6C;
+                padding-top: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .hero {
+        .hero-cards {
+            grid-template-columns: auto;
+            gap: 30px;
+            padding: 40px 40px;
+        }
+
+        .hero-card {
+            h3 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .hero {
+        .hero-cards {
+            grid-template-columns: auto;
+            gap: 20px;
+            padding: 20px 20px;
+        }
+
+        .hero-card {
+            display: flex;
+            gap: 32px;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .hero {
+        .hero-cards {
+            grid-template-columns: auto;
+            gap: 15px;
+            padding: 10px 10px;
+        }
+
+        .hero-card {
+            h3 {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}

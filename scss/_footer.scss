@@ -1,0 +1,204 @@
+.footer {
+    background-color: #0B7572;
+    padding: 59px 0;
+    text-align: center;
+
+    .footer-cards {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 80px;
+
+        .footer__title {
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 90px;
+            letter-spacing: 0.16em;
+            text-align: left;
+            color: #FFFFFF;
+        }
+
+        .footer-card {
+            display: grid;
+            grid-template-columns: auto;
+            gap: 25px;
+
+            .footer-icon{
+                margin-right: 230px;
+            }
+
+            h3 {
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 19.5px;
+                letter-spacing: 0.16em;
+                text-align: left;
+                color: #FFFFFF;
+            }
+
+            a {
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 19.5px;
+                letter-spacing: 0.16em;
+                text-align: left;
+                color: #FFFFFF;
+            }
+
+            button {
+                width: 271px;
+                height: 42px;
+                background-color: #FF9619;
+                border: 1px solid #FF9619;
+
+                a {
+                    font-size: 13px;
+                    font-weight: 600;
+                    line-height: 19.5px;
+                    text-align: left;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    .footer-link {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0.16em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .footer {
+        .footer-cards {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 80px;
+
+            .footer__title {
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 45px;
+                letter-spacing: 0.16em;
+                text-align: left;
+                color: #FFFFFF;
+            }
+
+            .footer-card {
+                display: grid;
+                grid-template-columns: auto;
+
+                h3 {
+                    font-size: 8px;
+                    font-weight: 600;
+                    line-height: 12px;
+                    letter-spacing: 0.16em;
+                    text-align: left;
+                    color: #FFFFFF;
+                }
+
+                a {
+                    font-size: 8px;
+                    font-weight: 500;
+                    line-height: 12px;
+                    letter-spacing: 0.16em;
+                    text-align: left;
+                    color: #FFFFFF;
+                }
+
+                button {
+                    width: 21.55px;
+                    height: 42px;
+                    background-color: #FF9619;
+                    border: 1px solid #FF9619;
+
+                    a {
+                        font-size: 6px;
+                        font-weight: 600;
+                        line-height: 9px;
+                        text-align: left;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+        .footer-link {
+            font-size: 10px;
+            font-weight: 500;
+            line-height: 15px;
+            letter-spacing: 0.16em;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+}
+
+@media screen and (max-width:345px) {
+    .footer {
+        .footer-cards {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 80px;
+
+            .footer__title {
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 45px;
+                letter-spacing: 0.16em;
+                text-align: left;
+                color: #FFFFFF;
+            }
+
+            .footer-card {
+                display: grid;
+                grid-template-columns: auto;
+
+                h3 {
+                    font-size: 8px;
+                    font-weight: 600;
+                    line-height: 12px;
+                    letter-spacing: 0.16em;
+                    text-align: left;
+                    color: #FFFFFF;
+                }
+
+                a {
+                    font-size: 8px;
+                    font-weight: 500;
+                    line-height: 12px;
+                    letter-spacing: 0.16em;
+                    text-align: left;
+                    color: #FFFFFF;
+                }
+
+                button {
+                    width: 294px;
+                    height: 44px;
+                    background-color: #FF9619;
+                    border: 1px solid #FF9619;
+
+                    a {
+                        font-size: 10px;
+                        font-weight: 600;
+                        line-height: 15px;
+                        text-align: left;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+        .footer-link {
+            font-size: 10px;
+            font-weight: 500;
+            line-height: 15px;
+            letter-spacing: 0.16em;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+}

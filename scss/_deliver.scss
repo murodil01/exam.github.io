@@ -1,0 +1,193 @@
+.deliver {
+    padding-bottom: 62px;
+
+    .deliver__title {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: left;
+        color: #363738;
+        padding-bottom: 48px;
+    }
+
+    .deliver__wrapper {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 24px;
+
+        .deliver-cards {
+            max-width: 1183px;
+            height: 245px;
+            box-shadow: 0px 4px 15px 0px #0000001F;
+            border-radius: 10px;
+            justify-content: center;
+            display: flex;
+            gap: 56px;
+            padding: 32px;
+
+            .deliver-card {
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 25px;
+                    text-align: left;
+                    color: #363738;
+                    padding-bottom: 24px;
+                }
+
+                .span {
+                    width: 86px;
+                    height: 0px;
+                    background-color: #FFCE50;
+                    border: #FFCE50;
+
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: #6B6B6C;
+                    padding-top: 24px;
+                    width: 568px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .deliver {
+        .deliver__title {
+            font-size: 36px;
+            line-height: 48px;
+        }
+
+        .deliver__wrapper {
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+
+            .deliver-cards {
+                width: 690px;
+                height: 245px;
+                box-shadow: 0px 4px 15px 0px #0000001F;
+                border-radius: 10px;
+                justify-content: center;
+                gap: 56px;
+                padding: 32px;
+
+                .deliver-card {
+
+                    img {
+                        display: none;
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        text-align: left;
+                        color: #363738;
+                        padding-bottom: 24px;
+                    }
+
+                    span {
+                        width: 86px;
+                        height: 0px;
+                        background-color: #FFCE50;
+
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        text-align: left;
+                        color: #6B6B6C;
+                        padding-top: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .deliver {
+        .deliver__wrapper {
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+
+            .deliver-cards {
+                width: 690px;
+                height: 245px;
+                box-shadow: 0px 4px 15px 0px #0000001F;
+                border-radius: 10px;
+                justify-content: center;
+                gap: 56px;
+                padding: 32px;
+
+                .deliver-card {
+
+                    img {
+                        display: none;
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        text-align: left;
+                        color: #363738;
+                        padding-bottom: 24px;
+                    }
+
+                    span {
+                        width: 86px;
+                        height: 0px;
+                        background-color: #FFCE50;
+
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        text-align: left;
+                        color: #6B6B6C;
+                        padding-top: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .deliver {
+        .deliver__title {
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        .deliver-cards {
+            padding: 8px;
+        }
+
+        .deliver-card {
+            h3 {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+}

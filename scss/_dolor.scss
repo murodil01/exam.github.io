@@ -1,0 +1,108 @@
+.dolor {
+    padding: 67px 0 120px 0;
+
+    .dolor__wrapper {
+
+        .dolor-cards {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            gap: 62px;
+            padding: 72.5px 62px;
+
+            .dolor-card {
+                display: flex;
+                gap: 40px;
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: left;
+                    color: #363738;
+                    padding-bottom: 16px;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: #6B6B6C;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .dolor-cards {
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+
+    .dolor-card {
+        width: 320px;
+    }
+
+    .dolor__wrapper {
+        padding-top: 60px;
+    }
+
+    .dolor-card h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .dolor-card p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .dolor-cards {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .dolor-card {
+        width: 280px;
+    }
+
+    .dolor__wrapper {
+        padding-top: 50px;
+    }
+
+    .dolor-card h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .dolor-card p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .dolor-cards {
+        grid-template-columns: auto;
+        gap: 15px;
+    }
+
+    .dolor-card {
+        width: 240px;
+    }
+
+    .dolor__wrapper {
+        padding-top: 40px;
+    }
+
+    .dolor-card h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .dolor-card p {
+        font-size: 12px;
+    }
+}
